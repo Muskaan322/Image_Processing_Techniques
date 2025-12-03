@@ -1,66 +1,60 @@
-Tasks Overview
-Task 1: Image Zoom In and Zoom Out
+# Advanced Image Processing Techniques in Python
 
-Description:
-Resize images using custom bilinear interpolation.
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-completed-brightgreen)
 
-Zoom out an image by reducing its DPI.
+---
 
-Zoom in back to the original size while preserving image quality.
+## **Project Overview**
+This project demonstrates several fundamental **image processing techniques** using Python. It covers:  
 
-Libraries Used: Pillow, Matplotlib
+- Image zooming (zoom in & zoom out with custom bilinear interpolation)
+- Logarithmic and Power-Law (Gamma) transformations for grayscale images
+- Intensity level quantization
+- Region-based histogram equalization for contrast enhancement
 
-Key Functions:
+The project uses Python libraries such as **Pillow**, **OpenCV**, **NumPy**, and **Matplotlib**. It serves as a practical reference for understanding image enhancement, resizing, and pixel-level manipulations.
 
-resize_image_handler() – Custom bilinear interpolation for resizing.
+---
 
-zoom_out() – Shrinks image based on DPI ratio.
+## **Features**
+- Zoom images in and out while preserving image quality
+- Apply log transformation to enhance dark regions
+- Apply power-law (gamma) transformation for brightness adjustments
+- Reduce grayscale intensity levels using quantization
+- Apply histogram equalization to specific regions (ROI) of an image
+- Interactive ROI selection for local image enhancement (Task 4)
 
-zoom_in() – Restores image to original size.
+---
 
-display_images() – Display original, zoomed-out, and zoomed-in images.
+## **Tasks Overview**
 
-Task 2: Log Transformation and Power-Law (Gamma) Transformation
+### **Task 1: Image Zoom In and Zoom Out**
+- Resize images using custom bilinear interpolation
+- Zoom out an image by reducing its DPI
+- Zoom back to original size
+- Libraries: Pillow, Matplotlib  
 
-Description:
-Enhance grayscale images using pixel intensity transformations:
+### **Task 2: Log Transformation and Power-Law (Gamma) Transformation**
+- Enhance grayscale images using pixel intensity transformations
+  - **Log Transformation:** Expands darker pixel values
+  - **Power-Law Transformation:** Adjusts brightness using gamma correction
+- Libraries: OpenCV, NumPy, Matplotlib
 
-Log Transformation: Expands darker pixel values.
+### **Task 3: Reducing Intensity Levels (Quantization)**
+- Reduce the number of grayscale intensity levels to simplify or compress images
+- Input: Desired number of intensity levels (must be a power of 2)
+- Libraries: OpenCV, NumPy, Matplotlib
 
-Power-Law Transformation: Adjusts image brightness using gamma correction.
+### **Task 4: Region-Based Histogram Equalization**
+- Improve local contrast by applying histogram equalization to a selected region (ROI)
+- Interactive mouse-driven ROI selection (best on local machines, e.g., VS Code)
+- Libraries: OpenCV, NumPy, Matplotlib
 
-Libraries Used: OpenCV, NumPy, Matplotlib
+---
 
-Key Parameters:
-
-log_scaling_constant – Controls intensity scaling for log transform.
-
-gamma_value – Controls brightness in power-law transform.
-
-Task 3: Reducing Intensity Levels (Quantization)
-
-Description:
-Reduce the number of grayscale intensity levels in an image to simplify or compress it.
-
-Input: Desired number of intensity levels (must be a power of 2, e.g., 2, 4, 8, 16).
-
-Libraries Used: OpenCV, NumPy, Matplotlib
-
-Key Function:
-
-quantize_intensity_levels() – Reduces the number of intensity levels for a grayscale image.
-
-Task 4: Region-Based Histogram Equalization
-
-Description:
-Improve local contrast by applying histogram equalization to a selected region (ROI) in the image.
-
-Note: Mouse-driven ROI selection works best on local machines (e.g., VS Code), not Google Colab.
-
-Libraries Used: OpenCV, NumPy, Matplotlib
-
-Key Functions:
-
-apply_histogram_equalization() – Applies histogram equalization to a given ROI.
-
-onselect() – Handles interactive ROI selection using RectangleSelector.
+## **Installation & Setup**
+1. Clone the repository:  
+```bash
+git clone <your-repo-url>
