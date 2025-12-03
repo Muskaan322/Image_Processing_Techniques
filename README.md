@@ -42,13 +42,13 @@ The project uses Python libraries such as **Pillow**, **OpenCV**, **NumPy**, and
   - **Log Transformation:** Expands darker pixel values
   - **Power-Law Transformation:** Adjusts brightness using gamma correction
 - Libraries: OpenCV, NumPy, Matplotlib
-![image](https://github.com/Muskaan322/Image_Processing_Techniques/blob/main/quantized%20image.png)
+![image](https://github.com/Muskaan322/Image_Processing_Techniques/blob/main/reduce%20intensity%20of%20image.png)
 
 ### **Task 3: Reducing Intensity Levels (Quantization)**
 - Reduce the number of grayscale intensity levels to simplify or compress images
 - Input: Desired number of intensity levels (must be a power of 2)
 - Libraries: OpenCV, NumPy, Matplotlib
-![image](https://github.com/Muskaan322/Image_Processing_Techniques/blob/main/reduce%20intensity%20of%20image.png)
+![image](https://github.com/Muskaan322/Image_Processing_Techniques/blob/main/quantized%20image.png)
 
 ### **Task 4: Region-Based Histogram Equalization**
 - Improve local contrast by applying histogram equalization to a selected region (ROI)
