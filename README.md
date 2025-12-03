@@ -6,7 +6,7 @@
 
 ---
 
-## **Project Overview**
+## **Overview**
 This project demonstrates several fundamental **image processing techniques** using Python. It covers:  
 
 - Image zooming (zoom in & zoom out with custom bilinear interpolation)
