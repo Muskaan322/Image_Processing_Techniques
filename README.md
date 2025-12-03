@@ -55,7 +55,7 @@ The project uses Python libraries such as **Pillow**, **OpenCV**, **NumPy**, and
 ## Results
 
 ### Task 1: Zoom In/Out
-![Zoomed Image](images/task_results.png)
+![Zoomed Image](https://colab.research.google.com/drive/19FY-Q9B0NWlI3I1Hup95CGtvQ1VL4q_y#scrollTo=2COG8wdEU6ZT&line=75&uniqifier=1)
 
 ### Task 2: Log & Gamma Transformations
 ![Log & Gamma Transformations](images/task_results.png)
