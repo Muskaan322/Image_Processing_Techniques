@@ -34,24 +34,27 @@ The project uses Python libraries such as **Pillow**, **OpenCV**, **NumPy**, and
 - Resize images using custom bilinear interpolation
 - Zoom out an image by reducing its DPI
 - Zoom back to original size
-- Libraries: Pillow, Matplotlib  
+- Libraries: Pillow, Matplotlib
+![image](https://github.com/Muskaan322/Image_Processing_Techniques/blob/main/original%2Czoom%20in%2C%20zoom%20out.png)
 
 ### **Task 2: Log Transformation and Power-Law (Gamma) Transformation**
 - Enhance grayscale images using pixel intensity transformations
   - **Log Transformation:** Expands darker pixel values
   - **Power-Law Transformation:** Adjusts brightness using gamma correction
 - Libraries: OpenCV, NumPy, Matplotlib
+![image](https://github.com/Muskaan322/Image_Processing_Techniques/blob/main/quantized%20image.png)
 
 ### **Task 3: Reducing Intensity Levels (Quantization)**
 - Reduce the number of grayscale intensity levels to simplify or compress images
 - Input: Desired number of intensity levels (must be a power of 2)
 - Libraries: OpenCV, NumPy, Matplotlib
+![image](https://github.com/Muskaan322/Image_Processing_Techniques/blob/main/reduce%20intensity%20of%20image.png)
 
 ### **Task 4: Region-Based Histogram Equalization**
 - Improve local contrast by applying histogram equalization to a selected region (ROI)
 - Interactive mouse-driven ROI selection (best on local machines, e.g., VS Code)
 - Libraries: OpenCV, NumPy, Matplotlib
-
+![image](https://github.com/Muskaan322/Image_Processing_Techniques/blob/main/ROI%20image.png)
 
 ---
 
