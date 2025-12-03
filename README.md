@@ -52,25 +52,13 @@ The project uses Python libraries such as **Pillow**, **OpenCV**, **NumPy**, and
 - Interactive mouse-driven ROI selection (best on local machines, e.g., VS Code)
 - Libraries: OpenCV, NumPy, Matplotlib
 
-## Results
 
-### Task 1: Zoom In/Out
-![Zoomed Image](https://colab.research.google.com/drive/19FY-Q9B0NWlI3I1Hup95CGtvQ1VL4q_y#scrollTo=2COG8wdEU6ZT&line=75&uniqifier=1)
-
-### Task 2: Log & Gamma Transformations
-![Log & Gamma Transformations](images/task_results.png)
-
-### Task 3: Quantization
-![Quantization Result](images/task_results.png)
-
-### Task 4: Histogram Equalization
-![ROI Histogram Equalization](images/task_results.png)
 ---
 
 ## **Installation & Setup**
 1. Clone the repository:  
 ```bash
 git clone <your-repo-url>
-
+2. pip install pillow opencv-python matplotlib numpy
 
 
