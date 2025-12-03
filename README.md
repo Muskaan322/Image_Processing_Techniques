@@ -52,13 +52,6 @@ The project uses Python libraries such as **Pillow**, **OpenCV**, **NumPy**, and
 - Interactive mouse-driven ROI selection (best on local machines, e.g., VS Code)
 - Libraries: OpenCV, NumPy, Matplotlib
 
----
-
-## **Installation & Setup**
-1. Clone the repository:  
-```bash
-git clone <your-repo-url>
-
 ## Results
 
 ### Task 1: Zoom In/Out
@@ -72,4 +65,12 @@ git clone <your-repo-url>
 
 ### Task 4: Histogram Equalization
 ![ROI Histogram Equalization](images/task_results.png)
+---
+
+## **Installation & Setup**
+1. Clone the repository:  
+```bash
+git clone <your-repo-url>
+
+
 
