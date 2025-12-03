@@ -56,9 +56,7 @@ The project uses Python libraries such as **Pillow**, **OpenCV**, **NumPy**, and
 ---
 
 ## **Installation & Setup**
-1. Clone the repository:  
-```bash
-git clone <your-repo-url>
+1. git clone <your-repo-url>
 2. pip install pillow opencv-python matplotlib numpy
 
 
