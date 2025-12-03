@@ -58,3 +58,18 @@ The project uses Python libraries such as **Pillow**, **OpenCV**, **NumPy**, and
 1. Clone the repository:  
 ```bash
 git clone <your-repo-url>
+
+## Results
+
+### Task 1: Zoom In/Out
+![Zoomed Image](images/task_results.png)
+
+### Task 2: Log & Gamma Transformations
+![Log & Gamma Transformations](images/task_results.png)
+
+### Task 3: Quantization
+![Quantization Result](images/task_results.png)
+
+### Task 4: Histogram Equalization
+![ROI Histogram Equalization](images/task_results.png)
+
