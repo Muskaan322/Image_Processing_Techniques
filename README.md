@@ -54,6 +54,7 @@ The project uses Python libraries such as **Pillow**, **OpenCV**, **NumPy**, and
 - Improve local contrast by applying histogram equalization to a selected region (ROI)
 - Interactive mouse-driven ROI selection (best on local machines, e.g., VS Code)
 - Libraries: OpenCV, NumPy, Matplotlib
+
 ![image](https://github.com/Muskaan322/Image_Processing_Techniques/blob/main/ROI%20image.png)
 
 ---
